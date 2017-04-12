@@ -83,7 +83,7 @@ I followed the lead of the Debian playbook here. Again, we are assuming dependen
 
 Now this is the part I'm least confident in/seems most likely I don't understand what I'm doing, but it seemed to me that the existing client configuration playbooks expected to work with client ipsec config files of the form `ipsec.*.conf` rather than `ipsec_*.conf`
 
-So in the desired config directory for the server, I cp'd my `ipsec_user.conf` and `ipsec_user.secrets` to `ipsec.user.conf` andf `ipsec.user.secrets`. The client deploy playbook seemed to work correctly after this, placing the aforementioned files in `/etc`, modifying the main `ipsec.conf` and related files to reference them appropriately, etc. No modifications seemed to be necessary in terms of the correct placements of the certificates etc.
+So in the desired config directory for the server, I cp'd my `ipsec_user.conf` and `ipsec_user.secrets` to `ipsec.user.conf` andf `ipsec.user.secrets`. The client deploy playbook seemed to work correctly after this, placing the aforementioned files in `/etc`, modifying the main `ipsec.conf` and related files to reference them appropriately, etc. No modifications seemed to be necessary in terms of the correct placement of the certificates and the like.
 
 As an aside, this may stem from my lack of understanding of ipsec, but it seems that `ipsec.conf` can work either by directly adding a connection to the file itself or by having it include files of the form `ipsec.*.conf` which contain the connection configs, which seems to be how it works in the Linux client deployment playbooks.
 
