@@ -89,7 +89,7 @@ As an aside, this may stem from my lack of understanding of ipsec, but it seems 
 
 For good measure, at this point I reset ipset and made it reread configs (so `rereadsecrets` etc.) but I was able to establish a connection and confirm it was working correctly after this.
 
-As should be clear, this is still hardly all automated. All my method did was configure my Arch machine as a client, but it does not e.g. auto-configure connecting automatically or install strongswan. As of now, this method still requires that you deal with your actual ipsec connections in your preferred way, e.g. by manually invoking `ipsec up`.
+As should be clear, this is still hardly all automated. All my method did was configure my Arch machine as a client, but it does not e.g. auto-configure connecting automatically or install strongswan. As of now, this method still requires that you deal with your actual ipsec connections in your preferred way, e.g. by manually invoking `ipsec up` or a startup script.
  
 
 
