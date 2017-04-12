@@ -72,7 +72,8 @@ Next, `algo-master/roles/client/tasks/systems/main.yml` seems to pick which dist
   
 Then finally it was a matter of creating the `Arch.yml` itself, alongside `Ubuntu.yml` etc.:
 
-```---
+```
+---
 
 - set_fact:
     prerequisites: []
