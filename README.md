@@ -1,6 +1,8 @@
 # algo_arch
 
-## PLEASE NOTE BEFORE USING: This documented has not been maintained for 5 years. Some of the information is likely deprecated. I am leaving this repository up because some aspects of it may still be useful. Please refer to the official AlgoVPN documentation and the ArchWiki entry for Wireguard for more information:
+## PLEASE NOTE BEFORE USING: 
+
+This document has not been maintained for 5 years. Some of the information is likely deprecated. I am leaving this repository up because some aspects of it may still be useful. Importantly, WireGuard is now sufficiently mature that I recommend it over IPSec, while the latter is used in this project. it uses Please refer to the official AlgoVPN documentation and the ArchWiki entry for Wireguard for more information:
 
 * https://wiki.archlinux.org/title/WireGuard
 * https://github.com/trailofbits/algo
