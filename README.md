@@ -1,9 +1,12 @@
 # algo_arch
 
+## PLEASE NOTE BEFORE USING: This documented has not been maintained for 5 years. Some of the information is likely deprecated. I am leaving this repository up because some aspects of it may still be useful. Please refer to the official AlgoVPN documentation and the ArchWiki entry for Wireguard for more information:
+
+[https://wiki.archlinux.org/title/WireGuard]
+https://github.com/trailofbits/algo
+
 ## Introduction and disclaimers
 This is a sort of sketchy guide on how I got Arch Linux working as a client for Algo VPN. This guide does not aim to be comprehensive, both because I have not thoroughly tested the process with a variety of configurations and because while it will get the client working, it still is not fully automated. It also may be incomplete in places as I figured it out while messing around and eating my lunch between classes. I intend to repeat the process so I can thoroughly document all issues I ran into and exactly what I did to resolve them at a later date.
-
-I would also add that I am merely a lowly undergraduate student in mathematics and not an infosec expert (and am new to the whole github thing), so if there is anything glaringly, obviously terrible about what I have done (particulalrly from a security perspective), please point it out.
 
 ## My setup
 
